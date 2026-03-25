@@ -1,0 +1,14 @@
+[project]
+name = "coding_agent"
+version = "0.1.0"
+description = "Microgravity Coding Agent"
+dependencies = [
+    "pydantic",
+    "google-generativeai",
+    "numpy",
+    "loguru",
+    "httpx"
+]
+
+[tool.setuptools]
+packages = ["coding_agent"]

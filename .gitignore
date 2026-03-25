@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Gateway & State
+gateway.pid
+*.log
+*.json
+!pyproject.toml
+!package.json
+
+# Memory & Knowledge
+coding_agent/agent_memory/
+agent_memory/
+experiential_data/
+cv_logs/
+sessions/
+test_experiential_data/
+*.db
+*.sqlite
+
+# Redundant Docs/Logs
+FEATURE_MANIFEST.md
+artifacts.md
+cocoindex.md
+possibilities.md
+wisdom.md
+world_model_learnings.md
+port_imports.py
+telegram_bot.py
+python.py
+tmp/
