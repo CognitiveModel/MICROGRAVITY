@@ -25,27 +25,34 @@ desktop.ini
 # Gateway & State
 gateway.pid
 *.log
-*.json
-!pyproject.toml
-!package.json
+microgravity_state.json
+world_graph.json
+soul_identity.json
+*.db
+*.sqlite
 
-# Memory & Knowledge
+# Memory & Privacy Data (Ignored as requested for open source)
 coding_agent/agent_memory/
 agent_memory/
 experiential_data/
 cv_logs/
 sessions/
 test_experiential_data/
-*.db
-*.sqlite
 
-# Redundant Docs/Logs
-FEATURE_MANIFEST.md
+# Keep important documentation
+!FEATURE_MANIFEST.md
+!requirements.txt
+!pyproject.toml
+!README.md
+
+# Redundant or local knowledge (Can be kept ignored)
+wisdom.md
+possibilities.md
+world_model_learnings.md
 artifacts.md
 cocoindex.md
-possibilities.md
-wisdom.md
-world_model_learnings.md
+
+# Stray scratch files
 port_imports.py
 telegram_bot.py
 python.py
